@@ -1,0 +1,271 @@
+.root{
+	max-width:640px;
+	/* height: 100vh; */
+	margin: 0 auto;
+}
+/* 小米搜索栏头部开始 */
+.head{
+	height:1.76rem;
+	width:100%;
+}
+.head-top{
+	height: 50%;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	background:#E5E5E5 ;
+	
+}
+.head-top-left{ 
+	width:1.55rem;
+	height:1.12rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.head-top-left img{
+	width:0.75rem;
+	height:0.5rem;
+	display: block;
+	}
+.head-top-center{
+	width:7.75rem;
+	height:1.12rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.head-top-center-box{
+	width:100%;
+	height:0.9rem;
+	border-radius:.04rem ;
+	background: #fff;
+	color: rgba(0,0,0,.3);    
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.head-top-center-box div:first-child{
+	font-size: 0.37rem;
+	margin-top:0.05rem ;
+	margin-right:0.1rem;
+	margin-left:0.3rem;
+}
+
+.head-top-center-box div:last-child{
+	font-size: 0.40rem;
+}
+.head-top-right{
+	width:1.5rem;
+	height:1,12rem;
+	background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAkFBMVEUAAABiYmJoaGhxcXFwcHBwcHBycnJwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBzc3NycnJwcHB2dnZwcHBwcHBxcXFwcHBwcHBwcHBwcHBwcHBwcHBwcHBvb29wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBvb29wcHBwcHBwcHBwcHBnZ2dwcHC6NtRcAAAAMHRSTlMAAwoXHycsRXWfxdzz+jB+vv8ljv/+72HU682aahOXTQ+wNblUtazlb1elWuE7B4ObTEwxAAADdklEQVR4AZWWh5rqOgyEnd7LEA2k0Os24P3f7vLdBVOSTTizBbfflmVZWHXJUBeZlu24rmNbpm56U5bnB2EUJ0kchYHvWep9pVke40FxnqX9hLZ4VEQQgEk8vihOCAiiYnTpHGKNSQmAVd1MvdRxUm/a1BUBlJNLZz87mycAo2axNHTjctFEBJL5rI82lL0SYjxfX+sX/ZbW8zEoK1sZPexGiHL7cDa6uC1B2XTQ2uaVEDv3idS8uwNl9bflhRB7q7vbUNYelOKvhRck8g5W0znIhTI6+2rwsO5zyfpA1N2zfwg5Ub2akPLR6a0I2Jn9J2nugKjLZ5/s3FDLLfxUba0guTUYgLlg1e6wIkg2HPqZIJq1DRpj3Gu1HlbpYbrVT6QcDcOjWpKPFlxAclMNyswFRQv+ElmpN7QS+WrBe5H9kNV6XP/Kre5HuL3yHLIx1LB2gnkLzii1peuW9RwES10KhVkL/o5x8G6tXlnq8kXTn91vCjHU8Ufi75Zv3AMwvbUWIuFSGbebWIlsr+UpcXBVSyHk6zbjBGRxO3UnB+PrPT99CULVVkZU66txy42Q+/X/w7c1KGdtBJh1wE6lM5Sh0lKIn+Dbm+5iEF+3O1wIK0d1aA6Oj7ddpzkAxuMEv9le/bprTDSdsZNWxEanCescERAgCSeXputuwCrtjsMMRHEZdI2p1N/XUdhMLB1lBYjsrzSxAZk9BOPSSUfGfTaflFyb1kqtEZhkevjvqNv/U5YQUU9qXlQgG/s+n6GH2gGIaqF6tD2ACL/NVg74DEEctqpXXg0i3kxe5lzFIGpPDcgJElA4ffouiYVIAkcN6vRdM0HsKkP7MUHC8PvUz11d3JDE8Q57QrL47Rt4DB2bmMRudoetXMi4OQ4+h2b+Dwis7Ke7vieIH3/Zz7orgizPs5eT8ksS3Lt97LEE8XN+fa9dKs75AKI89rCREJujemavVS8HJTr+FdpuKUQwa6FX3ArAru8znXtQmH8/aMwClFX3gDOI5tT3oDk1IM6dG44fEknPjY+7nLbDLXuqvscUsGs3b2NtUR+dgfG2tcRe9PusD7ZLyKplzw94VidjSKoAfvTurrAPRLZ6Q3YE+C8WBoLQHjmjATkjO4QEL8EVgUn1lhKidJXxAC9A4k2RWDzBn5LwPSVkIp9Pm16m7j8ovWaF/wCc31NtcLeHeAAAAABJRU5ErkJggg==") no-repeat center center /0.45rem auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* 小米搜索栏头部结束 */
+/* 小米搜索栏底部开始 */
+.head-bottom{
+	width:100%;
+	height:50%;
+	background: #E5E5E5;
+	display: flex;
+}
+.head-bottom-left{
+	width: 88.5%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	overflow-x: auto;
+}
+.head-bottom-left::-webkit-scrollbar{
+	height:0;
+	width:0;
+}
+.head-bottom-left>ul{
+	width:300%;
+	height:100%;
+	background:#E5E5E5;
+	display: flex;
+	justify-content: center;
+	}
+.head-bottom-left ul li{
+	width:0.996rem;
+	height:100%;
+	background: #E5E5E5;
+	color: rgb(116, 116, 116); 
+	border-bottom:1px  solid  #ff6700;
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+	margin: .3rem .1rem 0 .2rem;
+}
+.head-bottom-left ul li:first-child{
+	color: rgb(237,91,0);
+}
+.head-bottom-left ul li:nth-child(3){
+	margin-left:0;
+	margin-right:0.3rem;
+}
+
+.head-bottom-right{
+	display: flex;
+	align-items: center;
+	font-size:0.5rem ;
+	margin-left: 0.15rem;
+	color:#bbb;
+}
+/* 小米搜索栏底部结束 */
+/* banner start */
+.banner{
+	width:100%;
+	height:5.45rem;
+	background: url("//i8.mifile.cn/v1/a1/c39a9ca3-d498-2a5e-731a-22cdd0f160e5!720x360.webp") no-repeat center center/100% 100%;
+}
+/* banner end */
+/* ad start */
+.ad{
+	width:100%;
+	height:4.4rem;
+}
+.ad ul{
+	width:100%;
+	height:100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+}
+.ad ul li{
+	width:20%;
+	height:50%;
+	background: url("//i8.mifile.cn/v1/a1/01e0772b-fcd9-6e03-cdf3-9bd08b2d2974!144x152.webp") no-repeat center center/100% auto;
+	
+}
+/* ad1 on */
+.ad1{
+	width:100%;
+	height:7.6rem;
+	display: flex;
+	justify-content:space-between;
+}
+.ad1-left{
+	width: 49%;
+	height: 100%;
+	background: #000;
+}
+.ad1-right{
+	width: 49%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.ad1-left img{
+	width: 100%;
+	height:100%;
+	margin-top:0;
+}
+.ad1-right1{
+	width:100%;
+	height:49%;
+}
+.ad1-right1 img{
+	width: 100%;
+	height:100%;
+	margin-top:0;
+}
+.ad1-right2{
+	width:100%;
+	height:49%;
+}
+.ad1-right2 img{
+	width: 100%;
+	height:100%;
+	margin-top:0;
+}
+/* ad1 off */
+/* 过场 on */
+.interlude{
+	width:100%;
+	height:2.8rem;
+}
+.interlude img{
+	width: 100%;
+	height: 100%;
+	margin-top: .1rem;
+	margin-bottom: .1rem;
+}
+/* 过场 off */
+/* 循环 on */
+.recommend{
+	width:100%;
+	height: 4.4rem 	;
+}
+.recommend img{
+	width:100%;
+	height: 100%;
+}
+.recommend-bottom{
+	width:100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.recommend-bottom div{
+	width:49.5%;
+	height:4.2rem;
+	margin-bottom: .1rem;
+}
+.recommend-bottom-box{
+	width:100%;
+	height: 100%;
+	background: skyblue;
+	display: flex;
+	flex-direction: column;
+}
+.recommend-bottom-box-shang{
+	width: 2.7rem;
+	height:2.25rem;
+	background:red;
+
+	
+}
+.recommend-bottom-box-shang img{
+	width: 100%;
+	height: 100%;
+}
+.recommend-bottom-box-xia{
+	height:2.7rem;
+	width:1.0rem;
+	background: black;
+}
+/* 循环 off */
+/* foot on */
+.foot{
+	width: 100%;
+	height:1.3rem;
+}
+.foot ul{
+	width:100%;
+	height: 100%;
+	background: #87CEEB;
+	display: flex;
+	align-items: flex-start;
+}
+.foot ul li{
+	width:25%;
+	height:100%;
+}
+.foot ul li:first-child{
+	font-size: .22rem;
+	color: #FF6700;
+}
+.foot ul li i{
+	width: 100%;
+	height: 100%;
+	font-size: .22rem;
+	color:#FF6700
+}
+/* foot off */
