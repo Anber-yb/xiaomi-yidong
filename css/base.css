@@ -4,14 +4,15 @@
   font-family: "微软雅黑","苹方";
   font-style:normal;
   font-weight:normal;
+	box-sizing: border-box;
 }
 @font-face {
   font-family: 'iconfont';  /* project id 974100 */
-  src: url('//at.alicdn.com/t/font_974100_ojyqfoe148.eot');
-  src: url('//at.alicdn.com/t/font_974100_ojyqfoe148.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_974100_ojyqfoe148.woff') format('woff'),
-  url('//at.alicdn.com/t/font_974100_ojyqfoe148.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_974100_ojyqfoe148.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_974100_66bgnvsgro9.eot');
+  src: url('//at.alicdn.com/t/font_974100_66bgnvsgro9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_974100_66bgnvsgro9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_974100_66bgnvsgro9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_974100_66bgnvsgro9.svg#iconfont') format('svg');
 }
 
 .iconfont{
@@ -22,4 +23,11 @@ ul,li{
 }
 a{
 	text-decoration:none;
+}
+.root{
+	width: 100%;
+	max-width:640px;
+	/* height: 100vh; */
+	margin: 0 auto;
+	position: relative;
 }

@@ -18,8 +18,11 @@
 	position: fixed;
 	top:0;
 }
-.header div{
+.header div,a{
 	padding: 0 .4rem;
+}
+.header a:first-child{
+	padding:0;
 }
 /* head off */
 /* 主要内容开始 */

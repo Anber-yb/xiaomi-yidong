@@ -1,0 +1,164 @@
+.top{
+	width:100%;
+	height:6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 2rem;
+	margin-bottom:.95rem;
+}
+.top .img{
+	width:100%;
+	height:2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top .img img{
+	height:80%;
+	width: auto;
+}
+.top .text{
+	width:100%;
+	height:2.5rem;
+	text-align: center;
+	font-size: .5rem;
+	padding-top: .6rem;
+}
+.ID{
+	height:2rem;
+	width: 90%;
+	margin:.2rem .88rem 0.5rem .88rem;
+	border-bottom: .05rem solid #d3d3d3;
+	color:#9c9c9c;
+	position: relative;
+	/* font-size: .55rem; */
+}
+.ID input{
+	height:2rem;
+	width:85%;
+	outline: none;
+	position: absolute;
+	right:0;
+	bottom:.3rem;
+	border:none;
+	color:#9c9c9c;
+	font-size: 1rem;
+}
+.password{
+	height:2rem;
+	width: 90%;
+	margin:.2rem .88rem 0.5rem .88rem;
+	border-bottom: .05rem solid #d3d3d3;
+	color:#9c9c9c;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.8rem;
+}
+.password .right{
+	color:skyblue;
+	font-size:.44rem;
+	line-height: 1.6rem;
+	margin-right: .5rem;
+}
+.button{
+	width:100%;
+	height:3.6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.button-top{
+	width:90%;
+	height:30%;
+	background: #ff6902;
+	border-radius: 05%;
+	font-size: .53rem;
+	color:#fff;
+	text-align: center;
+}
+.button-bottom{
+	width:90%;
+	height:30%;
+	background: #fff;
+	border-radius: 05%;
+	font-size: .53rem;
+	color:#000;
+	text-align: center;
+	border:.05rem solid #ccc;
+}
+.FSDL{
+	height: .6rem;
+	width: 100%;
+	margin-top: 1.7rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.line{
+	width: 3.39rem;
+	height:.05rem;
+	background: #CCCCCC;
+}
+.FSDL>.text{
+	font-size: .38rem;
+	color:#ccc;
+	margin:0 .14rem 0 .14rem  ;
+}
+.jpg{
+	height: 0.9rem;
+	width: 100%;
+	margin-top: 0.7rem;
+	display: flex;
+	justify-content: center;
+}
+.jp1{
+	width: 1rem;
+	height: 1rem;
+	background: #f18f90;
+	border-radius: 50%;
+	line-height: 1rem;
+}
+.jp2{
+	width: 1rem;
+	height: 1rem;
+	background: #6cb5e8;
+	border-radius: 50%;
+	margin:0 .74rem 0 .74rem;
+	line-height: 1rem;
+}
+.jpg .iconfont{
+	font-size: .48rem;
+	color: #fff;
+	text-align: center;
+}
+.jp3{
+	width: 1rem;
+	height: 1rem;
+	background: #04bd00;
+	border-radius: 50%;
+	line-height: 1rem;
+}
+.foot{
+	width:100%;
+	height:.49rem;
+	margin-top: 1.71rem;
+	display: flex;
+}
+.foot div{
+	width:20%;
+	height:100%;
+	text-align: center;
+	font-size: .49rem;
+	border-right:.05rem solid #9C9C9C ;
+	line-height: .49rem;
+	color:#b3b3b3;
+}
+.foot div:first-child{
+	color:#333;
+}
+.foot div:last-child{
+	border: none;
+}
