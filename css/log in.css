@@ -1,60 +1,65 @@
 .top{
 	width:100%;
-	height:6rem;
+	height:3.72rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	margin-top: 2rem;
-	margin-bottom:.95rem;
+	margin-bottom:.93rem;
+	margin-top: 1.11rem;
 }
 .top .img{
 	width:100%;
-	height:2.5rem;
+	height:1.47rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 .top .img img{
-	height:80%;
+	height:100%;
 	width: auto;
 }
 .top .text{
 	width:100%;
-	height:2.5rem;
+	height:1.53rem;
 	text-align: center;
 	font-size: .5rem;
 	padding-top: .6rem;
 }
 .ID{
-	height:2rem;
+	height:1.3rem;
 	width: 90%;
-	margin:.2rem .88rem 0.5rem .88rem;
+	margin:1.3rem .5rem  0  .5rem;
 	border-bottom: .05rem solid #d3d3d3;
 	color:#9c9c9c;
 	position: relative;
-	/* font-size: .55rem; */
+	font-size: 0.5rem;
+	line-height: 1.3rem;
 }
 .ID input{
-	height:2rem;
-	width:85%;
+	height:1.3rem;
+	width:75%;
 	outline: none;
 	position: absolute;
 	right:0;
-	bottom:.3rem;
+	bottom:0.01rem;
 	border:none;
 	color:#9c9c9c;
-	font-size: 1rem;
+	font-size: .55rem;
+	/* line-height: rem; */
 }
 .password{
-	height:2rem;
+	height:1.3rem;
 	width: 90%;
-	margin:.2rem .88rem 0.5rem .88rem;
+	margin:0.1rem .5rem  0  .5rem;	
 	border-bottom: .05rem solid #d3d3d3;
 	color:#9c9c9c;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 0.8rem;
+	font-size: .55rem;
+	line-height: 1.3rem;
+	
 }
 .password .right{
 	color:skyblue;
@@ -72,26 +77,29 @@
 }
 .button-top{
 	width:90%;
-	height:30%;
+	height:45%;
 	background: #ff6902;
-	border-radius: 05%;
+	border-radius: .2rem;
 	font-size: .53rem;
 	color:#fff;
 	text-align: center;
+	line-height: 1.62rem;
 }
 .button-bottom{
 	width:90%;
-	height:30%;
+	height:45%;
 	background: #fff;
-	border-radius: 05%;
+	border-radius: .2rem;
 	font-size: .53rem;
 	color:#000;
 	text-align: center;
 	border:.05rem solid #ccc;
+	line-height: 1.62rem;
+
 }
 .FSDL{
 	height: .6rem;
-	width: 100%;
+	width: 50%;
 	margin-top: 1.7rem;
 	display: flex;
 	justify-content: center;
@@ -113,6 +121,7 @@
 	margin-top: 0.7rem;
 	display: flex;
 	justify-content: center;
+
 }
 .jp1{
 	width: 1rem;
@@ -121,6 +130,7 @@
 	border-radius: 50%;
 	line-height: 1rem;
 }
+
 .jp2{
 	width: 1rem;
 	height: 1rem;
@@ -130,7 +140,6 @@
 	line-height: 1rem;
 }
 .jpg .iconfont{
-	font-size: .48rem;
 	color: #fff;
 	text-align: center;
 }
@@ -143,22 +152,26 @@
 }
 .foot{
 	width:100%;
-	height:.49rem;
+	height:.45rem;
 	margin-top: 1.71rem;
 	display: flex;
+	margin-bottom: 2rem;
+	justify-content: space-between;
 }
 .foot div{
-	width:20%;
 	height:100%;
 	text-align: center;
-	font-size: .49rem;
+	font-size: .4rem;
 	border-right:.05rem solid #9C9C9C ;
-	line-height: .49rem;
+	line-height: .45rem;
 	color:#b3b3b3;
+	padding:0 .3rem 0 .3rem;
 }
 .foot div:first-child{
 	color:#333;
+	margin-left: .3rem;
 }
 .foot div:last-child{
 	border: none;
+	margin-right: .3rem;
 }

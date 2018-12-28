@@ -21,7 +21,7 @@
 ul,li{
 	list-style:none;
 }
-a{
+a{ 
 	text-decoration:none;
 }
 .root{
@@ -30,4 +30,8 @@ a{
 	/* height: 100vh; */
 	margin: 0 auto;
 	position: relative;
+}
+a{
+	background: none;
+	color: none;
 }

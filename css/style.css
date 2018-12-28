@@ -106,6 +106,9 @@
 	line-height: 0.5rem;
 	margin: .3rem .1rem 0 .4rem;
 	box-sizing: border-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .head-bottom-left ul li:first-child{
 	color: rgb(237,91,0);
