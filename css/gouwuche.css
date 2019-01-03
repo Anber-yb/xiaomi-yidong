@@ -161,7 +161,7 @@
 	background: pink;
 	display: flex;
 	position: fixed;
-	bottom:1.7rem;
+	bottom:1.3rem;
 }
 .jiesuan>div{
 	width:33.3333%;
@@ -189,4 +189,32 @@
 .jiesuan1{
 	background: #fff;
 	color:#e0e0e0;
+}
+.img>div{
+	width:100%;
+	height:7.72rem;
+	display: flex;
+	justify-content: space-between
+}
+.img>div>div{
+	width:49.5%;
+	height: 100%;
+}
+.img-1{
+	width:100%;
+	height:5.4rem;
+}
+.img-1 img{
+	width:100%;
+	height:auto;
+}
+.img .text1{
+	color:#808080;
+	font-size: .52rem;
+	margin-top: 0.3rem;
+}
+.img .text2{
+	color:#FF6700;
+	font-size: .45rem;
+	margin-top: 0.2rem;
 }
